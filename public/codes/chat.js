@@ -1,5 +1,5 @@
 $(function() {
-	let socket = io.connect('http://localhost:3000');
+	let socket = io.connect('https://blockroom.herokuapp.com');
 
 	let message = $('#message');
 	let send_message = $('#send_message');
