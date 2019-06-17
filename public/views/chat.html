@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+            
+            <!--Import Google Icon Font-->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <!--Import materialize.css-->
+            <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+            <link rel="stylesheet" href="../styles/chat.css">
+
+            <!--Let browser know website is optimized for mobile-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Chat</title>
+        </head>
+
+        <body background="../images/background.jpg">
+            <header>
+                <nav>
+                    <div class="nav-wrapper purple lighten-1" >
+                        <a class="brand-logo text-white" id="logo">°BlockRoom</a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#!" data-target="dropdown1">Salir</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="section"></div>
+            <br/>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card white" >
+                            <div class="card-content grey-text text-darken-4" id="chatroom">
+                                <span class="card-title">#General</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div id="write_div">
+                            <input type="text" class="input-filed col s8 left white" id="message" autocomplete="off">                                         
+                            <button  class="btn btn-large waves-effect purple lighten-1 col s3 right" type="submit" name="action" id="send_message">Enviar
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>                   
+            </div>
+
+            <!--JavaScript at end of body for optimized loading-->
+            <script type="text/javascript" src="js/materialize.min.js"></script>
+
+            <script src="/socket.io/socket.io.js"></script>
+            <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+            <script src="../codes/chat.js"></script>
+
+
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+
+        </body>
+    </html>

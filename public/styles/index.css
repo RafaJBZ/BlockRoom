@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:700&display=swap');
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+body {
+	background: #fff;
+}
+
+#logo {
+	font-size: 50px;
+	font-family: 'Teko', sans-serif;
+}

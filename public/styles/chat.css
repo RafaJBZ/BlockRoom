@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:700&display=swap');
+
+#chatroom {
+	height: 500px;
+}
+
+#logo {
+	margin-right: 5%;
+	font-family: 'Teko', sans-serif;
+}
