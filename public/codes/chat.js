@@ -1,5 +1,5 @@
 $(function() {
-	let socket = io.connect('https://blockroom.herokuapp.com');
+	let socket = io.connect('http://localhost:3000');
 
 	let message = $('#message');
 	let send_message = $('#send_message');
@@ -17,4 +17,8 @@ $(function() {
 	socket.on('loadMessages', (data) => {
 		chatroom.innerHTML = data;
 	});
+});
+
+$(document).ready(function() {
+	$('.scrollspy').scrollSpy();
 });
