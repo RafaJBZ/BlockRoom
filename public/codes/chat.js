@@ -18,7 +18,3 @@ $(function() {
 		chatroom.innerHTML = data;
 	});
 });
-
-$(document).ready(function() {
-	$('.scrollspy').scrollSpy();
-});
